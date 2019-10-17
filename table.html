@@ -4,7 +4,27 @@
 
 <h2>Basic HTML Table</h2>
 
-<table style="width:100%">
+<style>
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+
+}
+
+th,td{
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+th{
+background-color: gray;
+}
+
+</style>
+
+<table style="width:30%">
   <tr>
     <th>Firstname</th>
     <th>Lastname</th>
@@ -15,6 +35,11 @@
     <td>Smith</td>
     <td>50</td>
   </tr>
+  <tr>
+    <td>jack</td>
+    <td>Piter</td>
+    <td>33</td>
+    </tr>
   <tr>
     <td>Eve</td>
     <td>Jackson</td>
